@@ -5,6 +5,19 @@
   text-align: center;
 }
 
+body {
+  background: #282c34;
+  color: white;
+}
+
+h1 {
+  color: chocolate;
+}
+
+.bg-color {
+  background: #d3d61f;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
