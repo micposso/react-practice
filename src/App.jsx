@@ -4,7 +4,7 @@ import Container from "@mui/material/Container";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import "./App.css";
-
+// app components
 import TaskInput from "./components/TaskInput";
 import TaskList from "./components/TaskList";
 import TaskHistory from "./components/TaskHistory";
