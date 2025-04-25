@@ -38,9 +38,9 @@ const App = () => {
   return (
     <Container maxWidth="lg">
       <Box sx={{ bgcolor: "#cfe8fc", height: "100vh", width: "100vh" }}>
-        <Typography variant="h1">ToDo List</Typography>
+        <Typography variant="h1" className="">ToDo List</Typography>
         <Box className="bg-color" component="section" sx={{ p: 2 }}>
-          <TaskInput onAddTask={addTask} />
+          <TaskInput onAddTask={addTask} aria-label="add task" />
         </Box>
         <Box sx={{ p: 2 }}>
           <TaskList

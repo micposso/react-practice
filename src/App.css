@@ -6,12 +6,16 @@
 }
 
 body {
-  background: #282c34;
+background: #121215;
   color: white;
+    font-family: "Josefin Sans", sans-serif !important;
 }
+
+
 
 h1 {
   color: chocolate;
+  font-family: "Josefin Sans", sans-serif !important;
 }
 
 .bg-color {
